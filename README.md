@@ -21,39 +21,53 @@ The course provides very solid ground knowledge of SQL using PostgreSQL. My firs
 USEFUL SYNTAX: This part contains personally useful syntax and expressions I learnt or created from the course
 
 1. COUNT()/SUM()/[...] OVER(PARTITION BY.... ORDER BY....RANGE...)
+
 WHY_USEFUL? -- the reason this is expression is useful is because it is more efficient than a correlated subquery that I learnt earlier in the course. Moreover it is simpler to understand.
+
 NOTE -- the default behavior of RANGE is 'between unbounded preceding and current row' or running_total. This can be replaced by expressions such as 'between 1/2/3/n preceding and current row'
 
 2. RANK()/NTILE()/FIRST_VALUE/NTH_VALUE()
+
 WHY_USEFUL? -- those expressions can be used to arrange and sort data which helps a lot in data analysis. For example, FIRST_VALUE can be used to find max/min in combination of ORDER BY: (first_value(salary) over(partition by department order by salary desc) first_value)
 Moreover, the NTH_VALUE() expression is an extension of FIRST_VALUE and can be implemented when a specific rank is chosen. For example, in case the company wants to raise the salary for the 5th highest paid employee in each department, NTH_VALUE() will be used
 
 3. LEAD()/LAG()
+
 WHY_USEFUL? -- the same reason as 2. and these expressions can be used to figure out, for example, the closest highest salary of a department
 
 4. GROUP BY GROUPING SETS/ ROLLUP/ CUBES
-WHY_USEFUL? -- these expressions help sumarizing the data and are very useful when go with SUM/AVG/COUNT. 
+
+WHY_USEFUL? -- these expressions help sumarizing the data and are very useful when go with SUM/AVG/COUNT.
+
 NOTE -- The difference between the 3 expressions of GROUP BY is their result combination. While GROUPING SETS only returns the result combined with the defined sets, ROLL UP returns the result grouped by EVERYTHING and EVERYTHING - 1 and so on; the last expression CUBE returns the results as if we have a C combination (mathematical term) of the the defined sets; that means if we group base on 3 sets, we will have the result of 6 different combinations of those 3 sets
 -- when using GROUPING SETS, () means everything will be chosen
 
 5. CREATE VIEW v_.......AS
+
 WHY_USEFUL? -- THis expression saves a custom query for convenient later access
+
 NOTE -- It is still a query so the data cannot be modified (ADD, DELETE,....)
 
 6. FROM ..... INNER JOIN/ FULL OUTER JOIN/ LEFT OUTER JOIN/ RIGHT OUTER JOIN .... ON.....
+
 WHY_USEFUL? These expressions provide a way to connect different tables
 
 7. UNION/ UNION ALL/ CROSS JOIN
+
 WHY_USEFUL? -- This can be used to stack results from 1 querry on another querry. This is particularly useful in breaking down a complicated querry into parts. For example, first querry is to find the max value UNION second querry is to find the min value
+
 NOTE -- notice the difference between each expression
 
 8. EXCEPT
+
 WHY_USEFUL? -- AS A CHECKING TOOL. If we have 2 distinct querries that are supposed to return the same result, the result of those 2 querries combined by EXCEPT will be a querry with 0 row
 
 9. FUNCTIONS: UPPER()/LOWER()/LENGTH()/TRIM()/SUBSTRING/REPLACE()/POSITION/COALESECE()/MIN()/MAX()/AVG()/SUM()/COUNT()
+
 WHY_USEFUL? -- backbones of SQL
 
 10. GROUP BY()/HAVING
+
 WHY_USEFUL? -- Aggregated operations
 
 GENERAL_THING_ABOUT_SQL:
