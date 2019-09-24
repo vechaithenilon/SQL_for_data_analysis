@@ -14,8 +14,7 @@ The roadmap is as followed:
 
 This is my first ever project so maybe it is late, it is never too late. 
 
-[STEP 1]: 'Master SQL for Data Science' 20/09/2019 -- Present
-
+[STEP 1]: 'Master SQL for Data Science' 20/09/2019 -- 24/09/2019
 
 COURSE_REVIEW: 
 The course provides very solid ground knowledge of SQL using PostgreSQL. My first impression about this course is it can be very structured with exercises from easy to advanced to strongly assist the progress of me. Imtiaz teaching style is something I find very enjoyable: he repeats concepts a lot and this immensely helps me in reminding the previous knowledge to be able to combine with new knowledge. All in all, a very good course and teacher. I would recommend this course to my friends if possible.
