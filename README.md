@@ -80,4 +80,14 @@ GENERAL_THING_ABOUT_SQL:
 2. -- SQL cares only about the data type. In other words, SQL can combine different columns as long as they are of the same data type. That is why meaning check is very important.
 
 
+[STEP 2] SQL Application -  'Data Analysis using SQL and Excel' 26/09/2019 - Present
+
+FIRST_IMPRESSION_MOTIVATION: -- Just finished the foreword of this textbook. This is a very promising book and I am excited about what I can mine from this book. The book promises to apply SQL and Excel in data mining, analysis. I do think this is very practical as on the basic level, Excel is widely used. Moreover, the data mining part comes as a plus so I may not need to look further for the same knowledge. It is exciting!
+EXPECTATION_AFTER_FINISH
+-- Implement SQL and Excel together
+-- Able to mine data
+-- Able to analyze data using various statistical methods
+-- Find out what can SQL be used for the Supply Chain Industry
+-- Others are just plus
+
 
