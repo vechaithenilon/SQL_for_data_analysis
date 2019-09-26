@@ -29,36 +29,23 @@ READING_NOTE:
 -- Good practice for formating SQL Queries (page 39): CamelBack, SELECT...FROM, FROM (new line subqueries), (CASE....), ... as....,..
 
 -- Example formating:
-
+(
 WITH zc as(
-
        SELECT zc.*,
-       
-           (CASE WHEN totpop > 10000 THEN 1 ELSE 0
-           
-           END) as is_pop_10000,
-           
-           (CASE WHEN totpop > 1000 THEN 1 ELSE 0
-           
-           END) as is_pop_1000
-           
+              (CASE WHEN totpop > 10000 THEN 1 ELSE 0
+              END) as is_pop_10000,
+              (CASE WHEN totpop > 1000 THEN 1 ELSE 0
+              END) as is_pop_1000
        FROM ZipCensus zc
-       
-       )
-       
+              )
 SELECT zc.stab,
-
   SUM(is_pop_10000) as num_10000,
-  
   SUM(is_pop_1000) as num_1000,
-  
   SUM(is_pop_10000 * totpop) as pop_10000,
-  
   SUM(is_pop_1000* totpop) as pop_1000
-  
 FROM zc
-
 GROUP BY zc.stab
+)
 
 
 -- How to copy formulas using only keyboard in Excel (Page 18)
