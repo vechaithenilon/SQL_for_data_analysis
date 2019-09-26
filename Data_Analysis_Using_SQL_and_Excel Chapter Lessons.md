@@ -12,10 +12,14 @@
 1. Structure of the data (Entity-relationship diagram)
 2. Data processing (dataflows)
 3. SQL syntax
+
 -- FOCUS: Extract information from data with SQL querying
+
 -- Data flow diagrams as a way to understand data information
+
 -- JOINs, GROUP BYs, Subqueries
--- SQL -> Statistics -> Excel: Data storage -> Data interpretation -> Data visualization
+
+-- SQL -> Statistics -> Excel: Data storage-> Data interpretation -> Data visualization
 
 
 ## READING_NOTE:
