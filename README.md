@@ -14,14 +14,14 @@ The roadmap is as followed:
 
 This is my first ever project so maybe it is late, it is never too late. 
 
-[STEP 1]: 'Master SQL for Data Science' 20/09/2019 -- 24/09/2019
+## [STEP 1]: 'Master SQL for Data Science' 20/09/2019 -- 24/09/2019
 
-COURSE_REVIEW: 
+### COURSE_REVIEW: 
 The course provides very solid ground knowledge of SQL using PostgreSQL. My first impression about this course is it can be very structured with exercises from easy to advanced to strongly assist the progress of me. Imtiaz teaching style is something I find very enjoyable: he repeats concepts a lot and this immensely helps me in reminding the previous knowledge to be able to combine with new knowledge. All in all, a very good course and teacher. I would recommend this course to my friends if possible.
 
 
 
-USEFUL SYNTAX: This part contains personally useful syntax and expressions I learnt or created from the course
+### USEFUL SYNTAX: This part contains personally useful syntax and expressions I learnt or created from the course
 
 1. COUNT()/SUM()/[...] OVER(PARTITION BY.... ORDER BY....RANGE...)
 
@@ -80,10 +80,11 @@ GENERAL_THING_ABOUT_SQL:
 2. -- SQL cares only about the data type. In other words, SQL can combine different columns as long as they are of the same data type. That is why meaning check is very important.
 
 
-[STEP 2] SQL Application -  'Data Analysis using SQL and Excel' 26/09/2019 - Present
+## [STEP 2] SQL Application -  'Data Analysis using SQL and Excel' 26/09/2019 - Present
 
-FIRST_IMPRESSION_MOTIVATION: -- Just finished the foreword of this textbook. This is a very promising book and I am excited about what I can mine from this book. The book promises to apply SQL and Excel in data mining, analysis. I do think this is very practical as on the basic level, Excel is widely used. Moreover, the data mining part comes as a plus so I may not need to look further for the same knowledge. It is exciting!
-EXPECTATION_AFTER_FINISH
+### FIRST_IMPRESSION_MOTIVATION: 
+-- Just finished the foreword of this textbook. This is a very promising book and I am excited about what I can mine from this book. The book promises to apply SQL and Excel in data mining, analysis. I do think this is very practical as on the basic level, Excel is widely used. Moreover, the data mining part comes as a plus so I may not need to look further for the same knowledge. It is exciting!
+### EXPECTATION_AFTER_FINISH
 -- Implement SQL and Excel together
 -- Able to mine data
 -- Able to analyze data using various statistical methods
