@@ -1,4 +1,4 @@
-CHAPTER_1: SQL
+# CHAPTER_1: SQL
 
 -- This chapter introduces SQL and relational database from several different persepectives (Which?) that are importantn for data mining and data analysis. The focus is exclusively on using databases to extract information from data (how?), rather than on the mechanics of building databases, the myriad options avaialble in designing them, or the sophisticated algorithms implemented by database engines.
 
@@ -18,7 +18,7 @@ CHAPTER_1: SQL
 -- SQL -> Statistics -> Excel: Data storage -> Data interpretation -> Data visualization
 
 
-READING_NOTE:
+## READING_NOTE:
 
 -- NULL is useful as a way to handle missing values but be very CAREFUL as it might cause inaccurate interpretation ('How does NULL work in SQL)
 
