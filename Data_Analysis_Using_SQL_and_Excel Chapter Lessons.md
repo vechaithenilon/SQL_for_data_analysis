@@ -29,7 +29,8 @@ READING_NOTE:
 -- Good practice for formating SQL Queries (page 39): CamelBack, SELECT...FROM, FROM (new line subqueries), (CASE....), ... as....,..
 
 -- Example formating:
-``SQL
+
+```SQL
 WITH zc as(
        SELECT zc.*,
               (CASE WHEN totpop > 10000 THEN 1 ELSE 0
@@ -45,9 +46,7 @@ SELECT zc.stab,
   SUM(is_pop_1000* totpop) as pop_1000
 FROM zc
 GROUP BY zc.stab
-``
-
-
+```
 
 -- How to copy formulas using only keyboard in Excel (Page 18)
 
