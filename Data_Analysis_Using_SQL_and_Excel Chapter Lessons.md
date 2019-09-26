@@ -46,6 +46,6 @@ GROUP BY zc.stab
 
 - How to copy formulas using only keyboard in Excel (Page 18)
 
-# Chapter 2: Table
+# CHAPTER_2: Table
 
 
