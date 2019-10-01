@@ -47,5 +47,9 @@ GROUP BY zc.stab
 - How to copy formulas using only keyboard in Excel (Page 18)
 
 # CHAPTER_2: Table
-
+- Databases are well suited to data exploration because databases are close to the data. Most relational databases are inherently parallel - meaning they can take advantage of multiple processors and multiple disks - so a database is often the best choice in terms of performance as well. Excel charting is a useful companion because it is familiar to busieness people and charts are a powerful way to communicate results. This chapter introduces several types of charts including column charts, ine charts, scatter plots, and sparklines.
+- Data exploration starts by investigating the values stored in vairous columns in tables. Histograms are a good way to see distributions of values in particular columns, althrouhg numberic values often need to be grouped to see their distributions. There are various ways of grouping numeric values into ranges, including tiling - creating equal-sized groups such as quintles and deciles.
+- Various other metrics are of interest in describing data in columns. The most common value is called the mode, which can be calculated in SQL.
+- Ultimately, it is more efficient to investigate all columns at tonce rather than each column one at  a time. The chapter ends with a mechanism for creating a single query to summarize all cloumns at the same time. This method uses SQL or Excel to create a complex query, which is then run to get summaries for all the columns in a table. 
+- The next chapter moves from just exploring and looking at the data to determining whether patterns in the data are, in fact, statistically significant.
 
